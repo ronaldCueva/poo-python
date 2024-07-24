@@ -19,8 +19,8 @@ class Emplado(Persona):
     """
       El metodo super en python permite utilizar el metodo de la
       clase padre.
-      Una clase que hereda las propiedades de una clase padre tiene
-      va que tener los mismos parametros que el metodo que hereda
+      Una clase que hereda las propiedades de una clase padre va
+      que tener los mismos parametros que el metodo que hereda
     """
     super().__init__(name, age, nacionality)
     self.job = job
