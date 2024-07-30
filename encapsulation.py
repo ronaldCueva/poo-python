@@ -34,6 +34,13 @@ class Person:
   def __sumar_edad(self, anio):
     self.__age = self.__age + anio
 
+## Getter & Setter # Aceder a un atributo privado desde la instancia de la clase
+  def get_age(self):
+    return self.__age
+
+  def set_age(self, age: int):
+    self.__age = age
+
 persona_1 = Person("Ronald", "Cueva", 19)
 persona_1.person_presentation()
 persona_1.pasar_tiempo()
@@ -48,3 +55,7 @@ persona_1.person_presentation()
 # persona_1.person_presentation()
 
 # persona_1.__sumar_edad(5) # Da error porque es un metodo PRIVADO
+
+print(persona_1.get_age())
+persona_1.set_age(20)
+print(persona_1.get_age())
