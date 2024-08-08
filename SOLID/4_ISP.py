@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 
 """
-  ! Principio de segregación de interfaces
+  ! Principio de segregación de interfaces (ISP)
   * Se enfoca en crear interfaces para subdividir tareas en cada interfaz
   * Evita que clases tengan métodos inecesarios
   * Define interfaces con funcionalidades especificas y cohesivas, mejorando la modularidad y flexibilidad para diferentes contextos
